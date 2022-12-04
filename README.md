@@ -36,4 +36,21 @@ Notice a diode is used between the power switch input (1) and p8, to ensure a sp
 
 # Source Code Structure
 
-Source code is divided in two folders. mbed_src contains all source code that goes into the mbed, allowing for serial communication with the computer and programatic control over the AC unit. On the other hand, 
+Source code is divided in two folders. mbed_src contains all source code that goes into the mbed, allowing for serial communication with the computer and programatic control over the AC unit. On the other hand, win_app contains the solution files to debug and build the final Windows application, allowing for communication with the Mbed, as well as override of its functionality.
+
+Notice the Mbed source code depends on two libraries, namely RTOS (Real-Time OS) and uLCD for communcation with the LCD display. RTOS is used to coordinate multiple sensors and actions at the same time, with timely reaction to external inputs. The project can be performed without RTOS, however, screen display (and animation) may lag behind. Serial communication may also suffer without RTOS, since so many components are disputing the processor attention.
+
+The Windows Form Application source code depends on the System.IO.Ports library, since it facilitates serial communication with the Mbed. Below you can find common serial codes used to transmit and receive messages across the components in serial:
+
+<div align="center">
+
+| Command | Description |
+| --- | ----------- |
+| !B1 | Set system mode to automatic. In this mode, AC is turned on or off based on the current temperature and set-point |
+| !B2 | Set system mode to on |
+| !B3 | Turn off system |
+| !Txxx | Set the set-point to xxx |
+
+</div>
+
+The only message that is transmited by the Mbed is the current temperature, is then read by the Windows Application and displayed to the end user.
