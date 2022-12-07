@@ -14,6 +14,8 @@ This project was developed by ***Joao Victor Cardoso Kdouk*** and ***Camryn Quam
 
 # Schematic
 
+![Schematic](assets/schematic.jpeg?raw=true "Pin Schematic")
+
 Mbed RX connects to the uLCD TX, while its TX connects to the uLCD RX. Mbed analog pins are used to read the output of the temperature sensor (p20 in the schematic above). Finally, Mbed digital pins are used to control the power switch (p8 in the schematic above). Communication with the computer happens via USB (USBRX and USBTX) via serial. Below you can find a table with all connections:
 
 <div align="center">
@@ -54,3 +56,9 @@ The Windows Form Application source code depends on the System.IO.Ports library,
 </div>
 
 The only message that is transmited by the Mbed is the current temperature, is then read by the Windows Application and displayed to the end user.
+
+# Images
+
+![Embedded Device Open](assets/open.jpeg?raw=true "Embedded Device Open")
+![Embedded Device Closed](assets/open.jpeg?raw=true "Embedded Device Open")
+![Windows Application](assets/open.jpeg?raw=true "Windows Application")
