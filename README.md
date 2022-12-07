@@ -15,7 +15,9 @@ This project was developed by ***Joao Victor Cardoso Kdouk*** and ***Camryn Quam
 # Schematic
 
 <div style="width: 400px; padding-bottom: 20px;" align="center">
-   <img src="assets/schematic.jpeg?raw=true" width="400" />
+   <img src="assets/schematic.jpeg?raw=true" width="600" />
+   <br>
+   <br>
 </div>
 
 Mbed RX connects to the uLCD TX, while its TX connects to the uLCD RX. Mbed analog pins are used to read the output of the temperature sensor (p20 in the schematic above). Finally, Mbed digital pins are used to control the power switch (p8 in the schematic above). Communication with the computer happens via USB (USBRX and USBTX) via serial. Below you can find a table with all connections:
@@ -62,7 +64,7 @@ The only message that is transmited by the Mbed is the current temperature, is t
 # Images
 
 <div style="width: 400px; padding-bottom: 20px;" align="center">
-   <img src="assets/open.jpeg?raw=true" width="400" />
+   <img src="assets/open.jpeg?raw=true" width="600" />
    <br>
    (Open Embedded Device)
    <br>
@@ -70,7 +72,7 @@ The only message that is transmited by the Mbed is the current temperature, is t
 </div>
 
 <div style="width: 400px; padding-bottom: 20px;" align="center">
-   <img src="assets/closed.jpeg?raw=true" width="400" />
+   <img src="assets/closed.jpeg?raw=true" width="600" />
    <br>
    (Closed Embedded Device)
    <br>
@@ -78,7 +80,7 @@ The only message that is transmited by the Mbed is the current temperature, is t
 </div>
 
 <div style="width: 400px; padding-bottom: 20px;" align="center">
-   <img src="assets/winapp.png?raw=true" width="400" />
+   <img src="assets/winapp.png?raw=true" width="600" />
    <br>
    (Windows Application for Monitoring)
    <br>
