@@ -16,7 +16,7 @@ This project was developed by ***Joao Victor Cardoso Kdouk*** and ***Camryn Quam
 
 <div style="width: 400px" align="center">
 
-   <img src="assets/schematic.jpeg?raw=true" width="800" />
+   <img src="assets/schematic.jpeg?raw=true" width="300" />
  
 </div>
 
