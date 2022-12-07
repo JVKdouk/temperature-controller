@@ -64,14 +64,17 @@ The only message that is transmited by the Mbed is the current temperature, is t
 <div style="width: 400px; padding-bottom: 20px;" align="center">
    <img src="assets/open.jpeg?raw=true" width="400" />
    <br>
+   (Open Embedded Device)
 </div>
 
 <div style="width: 400px; padding-bottom: 20px;" align="center">
    <img src="assets/closed.jpeg?raw=true" width="400" />
    <br>
+   (Closed Embedded Device)
 </div>
 
 <div style="width: 400px; padding-bottom: 20px;" align="center">
-   <img src="assets/winapp.jpeg?raw=true" width="400" />
+   <img src="assets/winapp.png?raw=true" width="400" />
    <br>
+   (Windows Application for Monitoring)
 </div>
