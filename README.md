@@ -5,6 +5,18 @@ A Windows application is used to configure the microcontroller, and also overrid
 
 This project was developed by ***Joao Victor Cardoso Kdouk*** and ***Camryn Quam***.
 
+# Demo Video
+
+<div style="width: 400px; padding-bottom: 20px;" align="center">
+
+   [![Temperature Controller Demo](https://img.youtube.com/vi/FWbZGmumuwk/0.jpg)](https://www.youtube.com/watch?v=FWbZGmumuwk)
+   <br>
+   (Click on the image above to watch the video)
+   <br>
+   <br>
+   
+</div>
+
 # Used Parts
 - Temperature Sensor (TMP36).
 - LCD Screen (uLCD-144G2).
@@ -15,6 +27,11 @@ This project was developed by ***Joao Victor Cardoso Kdouk*** and ***Camryn Quam
 # Schematic
 
 <div style="width: 400px; padding-bottom: 20px;" align="center">
+   <img src="assets/schematic-live.jpeg?raw=true" width="600" />
+   <br>
+   (Compact schematic of the device)
+   <br>
+   <br>
    <img src="assets/schematic.jpeg?raw=true" width="600" />
    <br>
    <br>
@@ -85,16 +102,4 @@ The only message that is transmited by the Mbed is the current temperature, is t
    (Windows Application for Monitoring)
    <br>
    <br>
-</div>
-
-# Demo Video
-
-<div style="width: 400px; padding-bottom: 20px;" align="center">
-
-   [![Temperature Controller Demo](https://img.youtube.com/vi/FWbZGmumuwk/0.jpg)](https://www.youtube.com/watch?v=FWbZGmumuwk)
-   <br>
-   (Click on the image above to watch the video)
-   <br>
-   <br>
-   
 </div>
