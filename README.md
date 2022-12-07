@@ -92,6 +92,9 @@ The only message that is transmited by the Mbed is the current temperature, is t
 <div style="width: 400px; padding-bottom: 20px;" align="center">
 
    [![Temperature Controller Demo](https://img.youtube.com/vi/FWbZGmumuwk/0.jpg)](https://www.youtube.com/watch?v=FWbZGmumuwk)
+   <br>
    (Click on the image above to watch the video)
+   <br>
+   <br>
    
 </div>
