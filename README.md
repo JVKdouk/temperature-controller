@@ -61,6 +61,17 @@ The only message that is transmited by the Mbed is the current temperature, is t
 
 # Images
 
-![Embedded Device Open](assets/open.jpeg?raw=true "Embedded Device Open")
-![Embedded Device Closed](assets/open.jpeg?raw=true "Embedded Device Open")
-![Windows Application](assets/open.jpeg?raw=true "Windows Application")
+<div style="width: 400px; padding-bottom: 20px;" align="center">
+   <img src="assets/open.jpeg?raw=true" width="400" />
+   <br>
+</div>
+
+<div style="width: 400px; padding-bottom: 20px;" align="center">
+   <img src="assets/closed.jpeg?raw=true" width="400" />
+   <br>
+</div>
+
+<div style="width: 400px; padding-bottom: 20px;" align="center">
+   <img src="assets/winapp.jpeg?raw=true" width="400" />
+   <br>
+</div>
