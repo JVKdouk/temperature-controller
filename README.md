@@ -14,7 +14,7 @@ This project was developed by ***Joao Victor Cardoso Kdouk*** and ***Camryn Quam
 
 # Schematic
 
-<div style="width: 800px" align="center">
+<div style="width: 400px" align="center">
 
   ![Schematic](assets/schematic.jpeg?raw=true "Pin Schematic")
  
