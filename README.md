@@ -105,3 +105,10 @@ The only message that is transmited by the Mbed is the current temperature, is t
    <br>
    <br>
 </div>
+
+# Future Plans
+
+- Add humidity sensor and ability to control a humidifier.
+- Change to a more powerful Power Switch, allowing to control multiple devices at the same time.
+- Improve monitoring and control Windows application.
+- Create a Linux and MacOS application.
