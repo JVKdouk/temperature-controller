@@ -14,7 +14,7 @@ This project was developed by ***Joao Victor Cardoso Kdouk*** and ***Camryn Quam
 
 # Schematic
 
-<div style="width: 400px" align="center">
+<div style="width: 400px; padding-bottom: 20px;" align="center">
    <img src="assets/schematic.jpeg?raw=true" width="400" />
 </div>
 
