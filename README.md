@@ -14,7 +14,9 @@ This project was developed by ***Joao Victor Cardoso Kdouk*** and ***Camryn Quam
 
 # Schematic
 
-![Schematic](assets/schematic.jpeg?raw=true "Pin Schematic")
+<div style="width: 800px">
+  ![Schematic](assets/schematic.jpeg?raw=true "Pin Schematic")
+</div>
 
 Mbed RX connects to the uLCD TX, while its TX connects to the uLCD RX. Mbed analog pins are used to read the output of the temperature sensor (p20 in the schematic above). Finally, Mbed digital pins are used to control the power switch (p8 in the schematic above). Communication with the computer happens via USB (USBRX and USBTX) via serial. Below you can find a table with all connections:
 
