@@ -59,6 +59,8 @@ Notice a diode is used between the power switch input (1) and p8, to ensure a sp
 
 # Source Code Structure
 
+This repository holds both the code for the mbed device and the windows application. Click of the folders above to navigate the project.
+
 Source code is divided in two folders. mbed_src contains all source code that goes into the mbed, allowing for serial communication with the computer and programatic control over the AC unit. On the other hand, win_app contains the solution files to debug and build the final Windows application, allowing for communication with the Mbed, as well as override of its functionality.
 
 Notice the Mbed source code depends on two libraries, namely RTOS (Real-Time OS) and uLCD for communcation with the LCD display. RTOS is used to coordinate multiple sensors and actions at the same time, with timely reaction to external inputs. The project can be performed without RTOS, however, screen display (and animation) may lag behind. Serial communication may also suffer without RTOS, since so many components are disputing the processor attention.
